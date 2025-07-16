@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Login</title>
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="left">
+      <div class="content">
+        <img src="../resources/odin-lined.png" />
+        <h1>ODIN</h1>
+      </div>
+    </div>
+    <div class="right">
+      <div class="header">
+        <h2 class="intro">
+          This is not a real online service! You know you need something like
+          this in your life to help your realize your deepest dreams. <br>Sign up
+          now to get started.
+        </h2>
+        <h2 class="CTA-upper">You <em>know</em> you want to.</h2>
+      </div>
+      <div class="formCont">
+        <h2 class="CTA-lower">Let's do this!</h2>
+        <form id="myForm" action="" method="post" class="contact">
+          <div>
+            <label for="first_name">FIRST NAME</label>
+            <input
+              required
+              type="test"
+              name="first_name"
+              id="first_name"
+              placeholder="Duke"
+            />
+          </div>
+          <div>
+            <label for="last_name">LAST NAME</label>
+            <input
+              required
+              type="test"
+              name="last_name"
+              id="last_name"
+              placeholder="Dennis"
+            />
+          </div>
+          <div>
+            <label for="email">EMAIL</label>
+            <input  type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="telephone">PHONE NUMBER</label>
+            <input  type="tel" id="telephone" name="telephone" />
+          </div>
+          <div>
+            <label for="password">PASSWORD</label>
+            <input required type="password" id="password" name="password" />
+          </div>
+          <div>
+            <label for="ckpassword">CHECK PASSWORD</label>
+            <input required type="password" id="ckpassword" name="ckpassword" />
+          </div>
+        </form>
+      </div>
+      <div class="bottom">
+        <button type="submit" form="myForm">Create Account</button>
+        <div class="prev">
+          <p>Already have an account? <a href="">Log in</a></p>
+      </div>
+        </div>
+    </div>
+  </body>
+</html>
